@@ -12,7 +12,7 @@ global.APIs = {
 
 // APIKEY
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Api plz',
+	'https://zenzapis.xyz': '6fcd8ee0c3',
 }
 
 // OPTIONS
@@ -22,14 +22,14 @@ global.options = {
     mute: false
 }
 global.prefa = /^[#$+.?_&<>!/\\]/
-global.owner = ["918XXXX"] 
+global.owner = ["918891185546"] 
 global.sessionName = {
-    legacy: "/database/zenon-legacy.json",
-    multi: "/database/zenon-multi.json"
+    legacy: "/database/konan-legacy.json",
+    multi: "/database/konan-multi.json"
 }
-global.botnam = "⚠︎𝚉𝚎𝚗𝚘𝚗⚠︎" //give your bot name , It doest have any much use🐦⚡
-global.packname = "⚠︎𝚉𝚎𝚗𝚘𝚗⚠︎" // Give your Packname for sticker
-global.author = "ʙʏ ɴᴇXᴜsɴW 𖠌" //Give your Sticker author name
+global.botnam = "⚠︎KONAN⚠︎" //give your bot name , It doest have any much use🐦⚡
+global.packname = "⚠︎KONAN⚠︎" // Give your Packname for sticker
+global.author = "♣️ PA1N⚠︎ " //Give your Sticker author name
 
 // USERDATA
 global.user = require("./data/user")
