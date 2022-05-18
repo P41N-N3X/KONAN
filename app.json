@@ -1,0 +1,27 @@
+{
+  "name": "Zenon Zogratis",
+  "description": "whatsapp self bot⚡ build by npm",
+  "repository": "https://github.com/nexusNw/Zenon",
+  "logo": "https://i.imgur.com/igU7FAm.jpeg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp self", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
